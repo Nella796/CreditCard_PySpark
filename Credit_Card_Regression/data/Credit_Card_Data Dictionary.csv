@@ -1,0 +1,445 @@
+﻿Numeric Variable,Label,,Categorical Variable,,Label
+custid,Customer ID,,region,1,Zone 1
+region,Geographic indicator,,,2,Zone 2
+townsize,Size of hometown,,,3,Zone 3
+gender,Gender,,,4,Zone 4
+age,Age in years,,,5,Zone 5
+agecat,Age category,,townsize,1,"> 250,000"
+birthmonth,Birth month,,,2,"50,000-249,999"
+ed,Years of education,,,3,"10,000-49,999"
+edcat,Level of education,,,4,"2,500-9,999"
+jobcat,Job category,,,5,"< 2,500"
+union,Union member,,gender,0,Male
+employ,Years with current employer,,,1,Female
+empcat,Years with current employer,,agecat,1,<18
+retire,Retired,,,2,18-24
+income,Household income in thousands,,,3,25-34
+lninc,Log-income,,,4,35-49
+inccat,Income category in thousands,,,5,50-64
+debtinc,Debt to income ratio (x100),,,6,>65
+creddebt,Credit card debt in thousands,,,9,No response
+lncreddebt,Log-credit card debt,,birthmonth,April,April
+othdebt,Other debt in thousands,,,August,August
+lnothdebt,Log-Other debt,,,December,December
+default,Ever defaulted on a bank loan,,,February,February
+jobsat,Job satisfaction,,,January,January
+marital,Marital status,,,July,July
+spoused,Spouse years of education,,,June,June
+spousedcat,Spouse level of education,,,March,March
+reside,Number of people in household,,,May,May
+pets,Number of pets owned,,,November,November
+pets_cats,Number of cats owned,,,October,October
+pets_dogs,Number of dogs owned,,,September,September
+pets_birds,Number of birds owned,,edcat,1,Did not complete high school
+pets_reptiles,Number of reptiles owned,,,2,High school degree
+pets_small,Number of small animals owned,,,3,Some college
+pets_saltfish,Number of saltwater fish owned,,,4,College degree
+pets_freshfish,Number of freshwater fish owned,,,5,Post-undergraduate degree
+homeown,Home ownership,,jobcat,1,Managerial and Professional
+hometype,Building type,,,2,Sales and Office
+address,Years at current address,,,3,Service
+addresscat,Years at current address,,,4,Agricultural and Natural Resources
+cars,Number of cars owned/leased,,,5,"Precision Production, Craft, Repair"
+carown,Primary vehicle lease/own,,,6,"Operation, Fabrication, General Labor"
+cartype,Primary vehicle domestic/import,,union,0,No
+carvalue,Primary vehicle sticker price,,,1,Yes
+carcatvalue,Primary vehicle price category,,employ,0,0
+carbought,Primary vehicle bought/leased within last year,,,1,1
+carbuy,Plan to purchase/lease vehicle within next year,,,2,2
+commute,Primary commute transportation,,,3,3
+commutecat,Commute category,,,4,4
+commutetime,Commute time in minutes,,,5,5
+commutecar,Used car to commute within last year,,,6,6
+commutemotorcycle,Used motorcycle to commute within last year,,,7,7
+commutecarpool,Used carpool to commute within last year,,,8,8
+commutebus,Used bus to commute within last year,,,9,9
+commuterail,Used train/subway to commute within last year,,,10,10
+commutepublic,Used other public transport to commute within last year,,,11,11
+commutebike,Used bike to commute within last year,,,12,12
+commutewalk,Walked to commute within last year,,,13,13
+commutenonmotor,Used other non-motorized transport to commute within last year,,,14,14
+telecommute,Telecommuted within last year,,,15,15
+reason,Primary reason for being a customer here,,,16,16
+polview,Political outlook,,,17,17
+polparty,Political party membership,,,18,18
+polcontrib,Political contributions,,,19,19
+vote,Voted in last election,,,20,20
+card,Primary credit card,,,21,21
+cardtype,Designation of primary credit card,,,22,22
+cardbenefit,Benefit program for primary credit card,,,23,23
+cardfee,Annual fee for primary credit card,,,24,24
+cardtenure,Years held primary credit card,,,25,25
+cardtenurecat,Years held primary credit card,,,26,26
+card2,Secondary credit card,,,27,27
+card2type,Designation of secondary credit card,,,28,28
+card2benefit,Benefit program for secondary credit card,,,29,29
+card2fee,Annual fee for secondary credit card,,,30,30
+card2tenure,Years held secondary credit card,,,31,31
+card2tenurecat,Years held secondary credit card,,,32,32
+carditems,Number of items on primary card last month,,,33,33
+cardspent,Amount spent on primary card last month,,,34,34
+card2items,Number of items on secondary card last month,,,35,35
+card2spent,Amount spent on secondary card last month,,,36,36
+active,Active lifestyle,,,37,37
+bfast,Preferred breakfast,,,38,38
+tenure,Number of months with service,,,39,39
+churn,Switched providers within last month,,,40,40
+longmon,Long distance last month,,,41,41
+lnlongmon,Log-long distance last month,,,42,42
+longten,Long distance over tenure,,,43,43
+lnlongten,Log-long distance over tenure,,,44,44
+tollfree,Toll free service,,,45,45
+tollmon,Toll-free last month,,,46,46
+lntollmon,Log-toll free last month,,,47,47
+tollten,Toll-free over tenure,,,48,48
+lntollten,Log-toll free over tenure,,,49,49
+equip,Equipment rental,,,51,51
+equipmon,Equipment last month,,,52,52
+lnequipmon,Log-equipment last month,,empcat,1,Less than 2
+equipten,Equipment over tenure,,,2,2 to 5
+lnequipten,Log-equipment over tenure,,,3,6 to 10
+callcard,Calling card service,,,4,11 to 15
+cardmon,Calling card last month,,,5,More than 15
+lncardmon,Log-calling card last month,,retire,0,No
+cardten,Calling card over tenure,,,1,Yes
+lncardten,Log-calling card over tenure,,inccat,1,Under $25
+wireless,Wireless service,,,2,$25 - $49
+wiremon,Wireless last month,,,3,$50 - $74
+lnwiremon,Log-wireless last month,,,4,$75 - $124
+wireten,Wireless over tenure,,,5,$125+
+lnwireten,Log-wireless over tenure,,default,0,No
+multline,Multiple lines,,,1,Yes
+voice,Voice mail,,jobsat,1,Highly dissatisfied
+pager,Paging service,,,2,Somewhat dissatisfied
+internet,Internet,,,3,Neutral
+callid,Caller ID,,,4,Somewhat satisfied
+callwait,Call waiting,,,5,Highly satisfied
+forward,Call forwarding,,marital,0,Unmarried
+confer,3-way calling,,,1,Married
+ebill,Electronic billing,,spousedcat,-1,Not married
+owntv,Owns TV,,,1,Did not complete high school
+hourstv,Hours spent watching TV last week,,,2,High school degree
+ownvcr,Owns VCR,,,3,Some college
+owndvd,Owns DVD player,,,4,College degree
+owncd,Owns stereo/CD player,,,5,Post-undergraduate degree
+ownpda,Owns PDA,,homeown,0,Rent
+ownpc,Owns computer,,,1,Own
+ownipod,Owns portable digital audio player,,hometype,1,Single-family
+owngame,Owns gaming system,,,2,Multiple-Family
+ownfax,Owns fax machine,,,3,Condominium/Townhouse
+news,Newspaper subscription,,,4,Mobile Home
+response_01,Response to product offer 01,,address,0,0
+response_02,Response to product offer 02,,,1,1
+response_03,Response to product offer 03,,,2,2
+,,,,3,3
+,,,,4,4
+,,,,5,5
+,,,,6,6
+,,,,7,7
+,,,,8,8
+,,,,9,9
+,,,,10,10
+,,,,11,11
+,,,,12,12
+,,,,13,13
+,,,,14,14
+,,,,15,15
+,,,,16,16
+,,,,17,17
+,,,,18,18
+,,,,19,19
+,,,,20,20
+,,,,21,21
+,,,,22,22
+,,,,23,23
+,,,,24,24
+,,,,25,25
+,,,,26,26
+,,,,27,27
+,,,,28,28
+,,,,29,29
+,,,,30,30
+,,,,31,31
+,,,,32,32
+,,,,33,33
+,,,,34,34
+,,,,35,35
+,,,,36,36
+,,,,37,37
+,,,,38,38
+,,,,39,39
+,,,,40,40
+,,,,41,41
+,,,,42,42
+,,,,43,43
+,,,,44,44
+,,,,45,45
+,,,,46,46
+,,,,47,47
+,,,,48,48
+,,,,49,49
+,,,,50,50
+,,,,51,51
+,,,,52,52
+,,,,53,53
+,,,,54,54
+,,,,55,55
+,,,,57,57
+,,,addresscat,1,Less than 3
+,,,,2,4 to 7
+,,,,3,8 to 15
+,,,,4,16 to 25
+,,,,5,More than 25
+,,,cars,0,0
+,,,,1,1
+,,,,2,2
+,,,,3,3
+,,,,4,4
+,,,,5,5
+,,,,6,6
+,,,,7,7
+,,,,8,8
+,,,carown,-1,N/A
+,,,,0,Lease
+,,,,1,Own
+,,,cartype,-1,N/A
+,,,,0,Domestic
+,,,,1,Import
+,,,carcatvalue,-1,N/A
+,,,,1,Economy
+,,,,2,Standard
+,,,,3,Luxury
+,,,carbought,-1,N/A
+,,,,0,No
+,,,,1,Yes
+,,,carbuy,0,No
+,,,,1,Yes
+,,,commute,1,Car
+,,,,2,Motorcycle
+,,,,3,Carpool
+,,,,4,Bus
+,,,,5,Train/Subway
+,,,,6,Other public transit
+,,,,7,Bicycle
+,,,,8,Walk
+,,,,9,Other non-motorized transit
+,,,,10,Telecommute
+,,,commutecat,1,Single occupancy
+,,,,2,Multiple occupancy
+,,,,3,Public transportation
+,,,,4,Non-motorized
+,,,,5,Telecommute
+,,,commutecar,0,No
+,,,,1,Yes
+,,,commutemotorcycle,0,No
+,,,,1,Yes
+,,,commutecarpool,0,No
+,,,,1,Yes
+,,,commutebus,0,No
+,,,,1,Yes
+,,,commuterail,0,No
+,,,,1,Yes
+,,,commutepublic,0,No
+,,,,1,Yes
+,,,commutebike,0,No
+,,,,1,Yes
+,,,commutewalk,0,No
+,,,,1,Yes
+,,,commutenonmotor,0,No
+,,,,1,Yes
+,,,telecommute,0,No
+,,,,1,Yes
+,,,reason,1,Prices
+,,,,2,Convenience
+,,,,3,Service
+,,,,4,Other
+,,,,8,N/A
+,,,,9,No response
+,,,polview,1,Extremely liberal
+,,,,2,Liberal
+,,,,3,Slightly liberal
+,,,,4,Moderate
+,,,,5,Slightly conservative
+,,,,6,Conservative
+,,,,7,Extremely conservative
+,,,polparty,0,No
+,,,,1,Yes
+,,,polcontrib,0,No
+,,,,1,Yes
+,,,vote,0,No
+,,,,1,Yes
+,,,card,1,American Express
+,,,,2,Visa
+,,,,3,Mastercard
+,,,,4,Discover
+,,,,5,Other
+,,,cardtype,1,None
+,,,,2,Gold
+,,,,3,Platinum
+,,,,4,Other
+,,,cardbenefit,1,None
+,,,,2,Cash back
+,,,,3,Airline miles
+,,,,4,Other
+,,,cardfee,0,No
+,,,,1,Yes
+,,,cardtenure,0,0
+,,,,1,1
+,,,,2,2
+,,,,3,3
+,,,,4,4
+,,,,5,5
+,,,,6,6
+,,,,7,7
+,,,,8,8
+,,,,9,9
+,,,,10,10
+,,,,11,11
+,,,,12,12
+,,,,13,13
+,,,,14,14
+,,,,15,15
+,,,,16,16
+,,,,17,17
+,,,,18,18
+,,,,19,19
+,,,,20,20
+,,,,21,21
+,,,,22,22
+,,,,23,23
+,,,,24,24
+,,,,25,25
+,,,,26,26
+,,,,27,27
+,,,,28,28
+,,,,29,29
+,,,,30,30
+,,,,31,31
+,,,,32,32
+,,,,33,33
+,,,,34,34
+,,,,35,35
+,,,,36,36
+,,,,37,37
+,,,,38,38
+,,,,39,39
+,,,,40,40
+,,,cardtenurecat,1,Less than 2
+,,,,2,2 to 5
+,,,,3,6 to 10
+,,,,4,11 to 15
+,,,,5,More than 15
+,,,card2,1,American Express
+,,,,2,Visa
+,,,,3,Mastercard
+,,,,4,Discover
+,,,,5,Other
+,,,card2type,1,None
+,,,,2,Gold
+,,,,3,Platinum
+,,,,4,Other
+,,,card2benefit,1,None
+,,,,2,Cash back
+,,,,3,Airline miles
+,,,,4,Other
+,,,card2fee,0,No
+,,,,1,Yes
+,,,card2tenure,0,0
+,,,,1,1
+,,,,2,2
+,,,,3,3
+,,,,4,4
+,,,,5,5
+,,,,6,6
+,,,,7,7
+,,,,8,8
+,,,,9,9
+,,,,10,10
+,,,,11,11
+,,,,12,12
+,,,,13,13
+,,,,14,14
+,,,,15,15
+,,,,16,16
+,,,,17,17
+,,,,18,18
+,,,,19,19
+,,,,20,20
+,,,,21,21
+,,,,22,22
+,,,,23,23
+,,,,24,24
+,,,,25,25
+,,,,26,26
+,,,,27,27
+,,,,28,28
+,,,,29,29
+,,,,30,30
+,,,card2tenurecat,1,Less than 2
+,,,,2,2 to 5
+,,,,3,6 to 10
+,,,,4,11 to 15
+,,,,5,More than 15
+,,,active,0,No
+,,,,1,Yes
+,,,bfast,1,Energy bar
+,,,,2,Oatmeal
+,,,,3,Cereal
+,,,churn,0,No
+,,,,1,Yes
+,,,tollfree,0,No
+,,,,1,Yes
+,,,equip,0,No
+,,,,1,Yes
+,,,callcard,0,No
+,,,,1,Yes
+,,,wireless,0,No
+,,,,1,Yes
+,,,multline,0,No
+,,,,1,Yes
+,,,voice,0,No
+,,,,1,Yes
+,,,pager,0,No
+,,,,1,Yes
+,,,internet,0,None
+,,,,1,Dial-up
+,,,,2,DSL
+,,,,3,Cable modem
+,,,,4,Other
+,,,callid,0,No
+,,,,1,Yes
+,,,callwait,0,No
+,,,,1,Yes
+,,,forward,0,No
+,,,,1,Yes
+,,,confer,0,No
+,,,,1,Yes
+,,,ebill,0,No
+,,,,1,Yes
+,,,owntv,0,No
+,,,,1,Yes
+,,,ownvcr,0,No
+,,,,1,Yes
+,,,owndvd,0,No
+,,,,1,Yes
+,,,owncd,0,No
+,,,,1,Yes
+,,,ownpda,0,No
+,,,,1,Yes
+,,,ownpc,0,No
+,,,,1,Yes
+,,,ownipod,0,No
+,,,,1,Yes
+,,,owngame,0,No
+,,,,1,Yes
+,,,ownfax,0,No
+,,,,1,Yes
+,,,news,0,No
+,,,,1,Yes
+,,,response_01,0,No
+,,,,1,Yes
+,,,response_02,0,No
+,,,,1,Yes
+,,,response_03,0,No
+,,,,1,Yes
+,,,,,
